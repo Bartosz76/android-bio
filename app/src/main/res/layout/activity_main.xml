@@ -13,6 +13,7 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
+        android:padding="8dp"
         app:srcCompat="@drawable/_1208505_1410176832520556_5495269849024167936_n" />
 
     <TextView
@@ -21,6 +22,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Dazikiri Anikar"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        style="@style/nameStyle" />
 </androidx.appcompat.widget.LinearLayoutCompat>
