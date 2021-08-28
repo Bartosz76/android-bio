@@ -2,14 +2,20 @@
     <string name="app_name">android-bio</string>
     <string name="name">Dazikiri Anikar</string>
     <string name="dazikiri_bio"> Hello my name is Dazikiri Anikar and I am a lancer of Gridania
-        and a dragoon od Ishgard.\n\n My mission is to safeguard the liberty and future of all people of
-        Eorzea. As one of The Scions of the Seventh Down, I have an extensive experience in meeting
-        both internal and external threats to the realm head on Having felled Titan, Leviathan,
+        and a dragoon of Ishgard.\n\n My mission is to safeguard the liberty and future of all people
+        of Eorzea. As one of The Scions of the Seventh Down, I have an extensive experience in meeting
+        both internal and external threats to the realm head on. Having felled Titan, Leviathan,
         Garuda, Ramuh, Shiva and Ifrit, some of whom multiple times as well as having brought low
         the Empires attempts at incorporating Eorzea into their realm, I dare say the list of my
-        achievements does not qualify as short.
-        I look forward to earning gold and glory stemming from being hired as your mercenary of
-        choice.
+        achievements does not qualify as short. I can add to that the destruction of the Ultima
+        Weapon complete with dealing Gaius von Baelsar his final defeat as well as hurting the
+        XIVth Garlean legion to such a degree that any attempt on their paty to pose a threat to
+        Eorzea in the future is basically either prevented completely or hamstrung to a level of
+        irrelevance.
     </string>
     <string name="dazikiri_anikar">Dazikiri Anikar</string>
+    <string name="hobby_hint">Enter your hobbies here</string>
+    <string name="hobbies_proceed">Done!</string>
+    <string name="image_description">Dazikiri</string>
+    <string name="auto_fill_hints">Fighting</string>
 </resources>

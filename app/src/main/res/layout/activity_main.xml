@@ -9,10 +9,11 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
+        android:contentDescription="@string/image_description"
         android:padding="8dp"
         app:srcCompat="@drawable/_1208505_1410176832520556_5495269849024167936_n" />
 
@@ -23,6 +24,32 @@
         android:layout_gravity="center"
         android:text="@string/dazikiri_anikar"
         style="@style/nameStyle" />
+
+    <EditText
+        android:id="@+id/enterHobbies"
+        style="@style/generalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hobby_hint"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/auto_fill_hints" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/generalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="addHobbies"
+        android:text="@string/hobbies_proceed" />
+
+    <TextView
+        android:id="@+id/hobbiesText"
+        style="@style/generalStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
 
     <ScrollView
         android:layout_width="match_parent"
